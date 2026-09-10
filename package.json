@@ -1,5 +1,5 @@
 {
-  "name": "express-tutorial",
+  "name": "express_intro",
   "version": "1.0.0",
   "description": "Primo server Express essenziale",
   "main": "server.js",
@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "packageManager": "pnpm@11.25.0",
   "dependencies": {
     "express": "^5.2.1"
   },
