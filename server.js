@@ -12,5 +12,7 @@ app.get('/', (req, res) => {
 
 // 4. Avvia il server in ascolto sulla porta specificata
 app.listen(PORT, () => {
-  console.log(`Server avviato su http://localhost:${PORT}`);
+  console.group('Rotte disponibili:');
+  console.log(`- Home: http://localhost:${PORT}/`);
+  console.groupEnd();
 });
