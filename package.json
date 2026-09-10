@@ -1,26 +1,16 @@
 {
-  "name": "homeworks",
+  "name": "express-tutorial",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Primo server Express essenziale",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.3.4",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.3.4",
-  "type": "module",
   "dependencies": {
-    "cors": "^2.8.6",
     "express": "^5.2.1"
   }
 }
